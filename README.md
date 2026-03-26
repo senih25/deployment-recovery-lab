@@ -1,4 +1,4 @@
-﻿# Railway Deployment Recovery
+# Railway Deployment Recovery
 
 A practical resource for diagnosing and recovering broken Railway deployments.
 
@@ -27,13 +27,13 @@ This repository is designed to help with:
 
 Begin with the checklist:
 
-- railway-deployment-recovery/checklist.md
+- products/railway-deployment-recovery/checklist.md
 
 Then review:
 
-- railway-deployment-recovery/case-study.md
-- railway-deployment-recovery/faq.md
-- railway-deployment-recovery/audit-offer.md
+- products/railway-deployment-recovery/case-study.md
+- products/railway-deployment-recovery/faq.md
+- products/railway-deployment-recovery/audit-offer.md
 
 ## Recovery audit / troubleshooting help
 
