@@ -13,3 +13,9 @@ products/railway-deployment-recovery/checklist.md
 ## Contact
 
 bayankulsnh@gmail.com
+
+## If you are stuck
+
+If the checklist does not resolve your issue, you can reach out with a short description of your deployment problem.
+
+Contact: bayankulsnh@gmail.com

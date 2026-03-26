@@ -1,69 +1,80 @@
 # Railway Deployment Recovery Audit
 
-## What It Solves
+## What this is
 
-This is a narrow service for broken or unstable Railway deploys.
+This is a focused service for diagnosing and recovering broken or unstable Railway deployments.
 
-It is a good fit when:
+It is meant for situations where something is failing and the cause is not immediately clear.
 
-- the build is failing
-- the app is unreachable or returns `502`
-- custom build config may be involved
-- the team needs a clear diagnosis and next fix path
+## When it makes sense
 
-## Included
+This is usually helpful when:
 
-- one incident diagnosis
-- log and config review
-- root-cause summary
-- safe remediation plan
-- verification checklist
+- the build is failing without a clear reason
+- the app deploys but is unreachable or returns `502`
+- custom build or start configuration is involved
+- logs exist but are hard to interpret
+- you are unsure what to fix next
 
-## Not Included
+## What I do
 
-- full infrastructure redesign
-- ongoing DevOps management
-- unrelated feature work
-- multiple unrelated incidents in one engagement
+When you reach out, I look at the deployment as a single incident.
 
-## Best Fit
+This typically includes:
 
-- indie founders
-- solo developers
-- small SaaS teams
+- reviewing logs and recent changes
+- checking build and runtime configuration
+- narrowing down likely failure points
+- identifying the most probable root cause
 
-## Typical Failure Families
+## What you get
 
-- lockfile/install drift
-- wrong root or missing `package.json`
-- invalid custom Railpack override
-- `502` / app-not-responding runtime mismatch
+After the review, I share:
+
+- a clear explanation of what is causing the issue
+- the next steps to fix it safely
+- notes on how to avoid the same problem again
+
+The goal is to help you move forward with confidence, not to overwhelm you with theory.
+
+## What this is not
+
+This is not:
+
+- a full infrastructure redesign
+- ongoing DevOps support
+- feature development work
+- multi-incident debugging in one request
+
+## Common failure patterns
+
+Some recurring issues I see:
+
+- lockfile or install drift
+- incorrect root directory or missing `package.json`
+- broken or unnecessary custom Railpack overrides
+- runtime mismatch causing `502` or no response
 - missing or incorrect start command
 
-## Deliverable
+## What I need from you
 
-You leave with:
+Before I can review the issue, please send:
 
-- the failure class identified
-- the root cause clarified
-- the next safe move made explicit
+- repository link
+- Railway deployment link
+- relevant build or runtime logs
+- any custom configuration files
+- whether the Railway URL works
+- whether the custom domain works (if any)
 
-## Intake Requirements
+## Scope
 
-Before starting:
+This is a narrow, problem-focused service.
 
-1. repo link
-2. Railway deployment link
-3. build logs
-4. current custom config files if any
-5. whether the Railway URL works
-6. whether the custom domain works
-
-## Positioning
-
-This is not broad DevOps consulting.
-It is a focused Railway deployment recovery service.
+It is designed to get you unstuck in a specific Railway deployment issue.
 
 ## Contact
+
+If you are dealing with a similar issue, you can reach out here:
 
 bayankulsnh@gmail.com

@@ -80,3 +80,8 @@ Use a recovery audit if:
 - the deploy is red but the app seems partially alive
 - custom build overrides are involved
 - the team cannot tell whether the issue is build, runtime, or domain
+
+---
+If you go through these steps and still cannot isolate the issue, it usually means the failure is more context-specific.
+
+You can send a short summary here: bayankulsnh@gmail.com
