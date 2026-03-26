@@ -61,3 +61,7 @@ Recovery was only accepted after:
 - partial runtime signals can create false confidence
 - custom build overrides should be justified, not guessed
 - recovery starts with classification, not random config edits
+
+## Need help?
+
+bayankulsnh@gmail.com

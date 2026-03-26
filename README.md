@@ -1,46 +1,56 @@
-# Deployment Recovery Lab
+﻿# Railway Deployment Recovery
 
-Evidence-based recovery resources for real deployment, runtime, and config
-incidents.
+A practical resource for diagnosing and recovering broken Railway deployments.
 
-This repository is the public product surface for small, narrow recovery
-offers. It is designed to hold focused incident-based products without turning
-into a vague DevOps library.
+## Problem
 
-## Current Product
+Railway deployments can fail in ways that are difficult to diagnose quickly.
 
-- [`products/railway-deployment-recovery`](./products/railway-deployment-recovery)
-  - checklist
-  - case study
-  - audit offer
-  - launch copy
+Common issues include:
 
-## Working Model
+- failed builds
+- unclear logs
+- configuration mistakes
+- environment mismatches
+- repeated debugging without clear root cause
 
-Each product in this repository should stay:
+## What this repository provides
 
-- narrow in scope
-- evidence-based
-- simple to understand
-- service-first before tool-first
+This repository is designed to help with:
 
-## Intended Audience
+- practical recovery steps
+- structured debugging flow
+- common failure pattern review
+- focused recovery support
 
-- indie founders
-- solo developers
-- small SaaS teams
+## Start here
 
-## What This Repository Is Not
+Begin with the checklist:
 
-- not an official vendor resource
-- not a generic DevOps content dump
-- not a promise to solve every infrastructure problem
+- railway-deployment-recovery/checklist.md
 
-## Expansion Rule
+Then review:
 
-New products should only be added when they are based on:
+- railway-deployment-recovery/case-study.md
+- railway-deployment-recovery/faq.md
+- railway-deployment-recovery/audit-offer.md
 
-- real incidents
-- repeated problem families
-- conservative technical claims
-- a clear paid or practical use case
+## Recovery audit / troubleshooting help
+
+For recovery audit or troubleshooting help:
+
+Contact: bayankulsnh@gmail.com
+
+## Scope
+
+This repository is focused on:
+
+- Railway deployment recovery
+- debugging and diagnosis
+- practical recovery guidance
+
+It is not positioned as generic DevOps consulting.
+
+## Goal
+
+Make Railway deployment recovery more practical, faster, and easier to reason about.

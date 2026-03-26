@@ -34,3 +34,7 @@ incidents before investing in automation.
 - build logs
 - current config files
 - note on whether Railway URL or custom domain is working
+
+## Contact
+
+bayankulsnh@gmail.com
