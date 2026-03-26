@@ -17,3 +17,11 @@ bayankulsnh@gmail.com
 ## If you are stuck
 
 If the checklist does not resolve your issue, you can reach out with a short description of your deployment problem.
+
+---
+
+## Quick help
+
+If your Railway deployment is stuck or returning errors, you can send a short summary here:
+
+bayankulsnh@gmail.com
